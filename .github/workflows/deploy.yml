@@ -1,7 +1,9 @@
+
 name: hello world workflow
-on: 
+on:
   push:
-    branches: [main]
+    branches:
+      - main
 jobs:
   say_hello:
     runs-on: ubuntu_latest
