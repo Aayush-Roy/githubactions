@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   say_hello:
-    runs-on: ubuntu_latest
+    runs_on: ubuntu_latest
     steps:
       -name: Print Hello world
       run: echo "Hello, World!"
